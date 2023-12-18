@@ -1,0 +1,377 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  height: 840px;
+  border: 2px solid;
+ 
+ background-color: rgba(46, 196, 182, 0.04);
+}
+
+.form {
+  border: 2px solid white;
+  width: 580px;
+  height: 679px;
+  /* margin: 0 auto; */
+  position: relative;
+  left: 40.5rem;
+  top: -22rem;
+  background-color: white;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  
+  
+ 
+  
+}
+
+.For {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 80px;
+  line-height: 2rem;
+  
+  
+
+  > h1 {
+    color: var(--cl-black, #000b0a);
+    font-family: Brown;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.8px;
+  }
+  > p {
+    color: var(--cl-grey, #737373);
+    font-family: Brown;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+  }
+}
+
+img {
+  position: relative;
+  bottom: -6rem;
+  left: 5rem;
+}
+.last-name {
+  position: relative;
+  top: -3.95rem;
+  left: 17rem;
+}
+.full-name {
+  width: 238px;
+  height: 48px;
+ 
+  margin-top: 5px;
+  border: 1px solid #f0f0f0;
+  color: var(--cl-grey, #737373);
+font-family: Sofia Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+padding-left: 10px;
+
+}
+.fname {
+  color: var(--text-headings, #011c34);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.lname {
+  width: 238px;
+  height: 48px;
+  margin-top: 4px;
+  border: 1px solid #f0f0f0;
+
+}
+.lborn {
+  color: var(--text-headings, #011c34);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  
+}
+.name {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  left: -1rem;
+  top: 0.2rem;
+}
+
+.gen {
+  width: 238px;
+  height: 48px;
+  
+  margin-top: 5px;
+  color: var(--cl-grey, #737373);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+  padding-left: 10px;
+}
+.gender {
+  position: relative;
+  top: -2.5rem;
+  left: 0.5rem;
+
+  > form {
+    color: var(--text-headings, #011c34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+  }
+
+  >#gender{
+    border: 1px solid var(--cl-gray-3, #f0f0f0);
+    
+  }
+}
+.date {
+  width: 238px;
+  height: 48px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.kg {
+  width: 238px;
+  height: 48px;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: var(--cl-grey, #737373);
+  font-family: Sofia Pro;
+}
+.cm {
+  width: 238px;
+  height: 48px;
+  padding-left: 10px;
+  margin-top: 5px;
+   color: var(--cl-grey, #737373);
+  font-family: Sofia Pro;
+}
+.level {
+  width: 500px;
+  height: 48px;
+  margin-top: 9px;
+  border-radius: 2px;
+  border: 1px solid var(--cl-gray-3, #f0f0f0);
+
+  
+}
+.word {
+  width: 500px;
+  height: 48px;
+  
+  margin-top: 9px;
+  border-radius: 2px;
+  border: 1px solid var(--cl-gray-3, #f0f0f0);
+}
+.pword {
+  margin-top: 10px;
+  color: var(--text-headings, #011c34);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  
+}
+.alevel {
+  margin-top: 10px;
+  color: var(--text-headings, #011c34);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.act {
+  margin-left: 20px;
+  position: relative;
+  top: -7.7rem;
+  left: -0.9rem;
+}
+
+
+.pwor {
+  position: relative;
+  top: -6.5rem;
+  left: 0.5rem;
+}
+.dob {
+  position: relative;
+  top: -6.8rem;
+  left: 17rem;
+
+  > form {
+    color: var(--text-headings, #011c34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+  }
+
+  >#text{
+    border: 1px solid var(--cl-gray-3, #f0f0f0);
+  }
+}
+.KG {
+  position: relative;
+  top: -4.9rem;
+  left: 0.5rem;
+
+  > form {
+    color: var(--text-headings, #011c34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+
+    > .kg {
+      color: var(--cl-grey, #737373);
+      font-family: Sofia Pro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 20px; /* 142.857% */
+      letter-spacing: 0.2px;
+      
+    }
+  }
+  >#text{
+    border: 1px solid var(--cl-gray-3, #f0f0f0);
+  }
+}
+.CM {
+  position: relative;
+  top: -9.2rem;
+  left: 16.6rem;
+
+  > form {
+    color: var(--text-headings, #011c34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+
+    > .cm {
+      color: var(--cl-grey, #737373);
+      font-family: Sofia Pro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 20px; /* 142.857% */
+      letter-spacing: 0.2px;
+    }
+  }
+  >#text{
+    border: 1px solid var(--cl-gray-3, #f0f0f0);
+  }
+}
+.register {
+  width: 500px;
+  height: 48px;
+  margin-top: 7px;
+ 
+  position: relative;
+  top: -5.5rem;
+  left: 0.40rem;
+  color: white;
+  background-color: #2EC4B6;
+  border: #2EC4B6;
+  font-size: 16px;
+  text-align: center;
+}
+.date {
+  color: var(--cl-grey, #737373);
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.svg{
+  position: relative;
+  left: -2rem;
+  top: 0.3rem;
+}
+
+
+
+.term{
+  text-decoration: none;
+  color: var(--cl-green, #2EC4B6);
+  font-family: Sofia Pro;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+
+.down{
+  color: #000;
+font-family: Sofia Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px; /* 178.571% */
+position: relative;
+left: 1.4rem;
+top: -5rem;
+margin-left: 10px;
+padding-bottom: 12px;
+
+
+}
+
+.level{
+color: var(--cl-grey, #737373);
+font-family: Sofia Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+padding-left: 10px;
+}
+
+.here{
+  position: relative;
+  right: 2rem;
+  top: 0.5rem;
+}
